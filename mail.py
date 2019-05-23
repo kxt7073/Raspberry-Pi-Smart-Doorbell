@@ -4,8 +4,8 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 from email.mime.image import MIMEImage
 
-myEmail = "rpdb585@gmail.com"
-password = "Cabbage1!"
+myEmail = "Your email"
+password = "Your password"
 
 def sendEmail(image):
     msgRoot = MIMEMultipart('related')
